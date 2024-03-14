@@ -27,9 +27,9 @@ puppeteer.use(StealthPlugin());
   await page.type('input[type="password"]', password);
   await page.keyboard.press('Enter');
 
-  await page.waitForSelector('.etvrc4k0').then(async () => {
+  await page.waitForSelector('.css-9fq6q2-DivOneColumnContainer').then(async () => {
     console.log('content dimuat');
-    await page.click('.e1l04njg4');
+   await page.click('.css-1o0yumu-DivXMarkWrapper');
  
    await page.evaluate(() => {
       const elements = document.getElementsByClassName('e1hk3hf90');
